@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+  }
+  .attribution {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 16px;
+
+}
+.container{
+    /* border: 1px solid black; */
+    text-align: center;
+    max-width: 420px;
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    font-family: "Red Hat Display", "sans-serif";
+    }
+.plan {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    align-items: center;
+    margin: 1rem auto;
+    /* margin-top: 1rem; */
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+/* li{
+    margin: 0 ;
+} */
+.button1{
+    width: 80%;
+    font-size: .8rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    padding: .8rem;
+    box-shadow: 1rem 0 1rem 0;
+}
+.button2{
+    color: hsl(224, 23%, 55%);
+    font-size: .8rem;
+    text-decoration: none;
+    
+    
+}
+
+.bg-img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+.text{
+    margin: 2rem;
+}
+h2{
+    margin-bottom: 1.5rem;
+}
+p{
+    color: hsl(224, 23%, 55%);
+}
+.cost{
+    margin-top: 0.3rem;
+}
+.change{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+.change:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+.button2:hover{
+    color: hsl(223, 47%, 23%);
+}
+.button1:hover{
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    body{
+        /* overflow: hidden; */
+        font-size: 12px;
+        height: 100vmax;
+    }
+
+    .container{
+       max-width: 90%;
+    }   
+    img{
+        width: 100%;
+    }
+    .button1{
+        font-size: 12px;
+    }
+    .button2{
+        font-size: 12px;
+    }
+    .text{
+        line-height: 1rem;
+        margin: 1rem;
+        font-size: .8rem;
+    }
+    .attribution{
+        font-size: 12px;
+    }
+    .change{
+        font-size: 12px;
+    }
+    .price{
+        font-size: 12pxß;
+    }
+}
