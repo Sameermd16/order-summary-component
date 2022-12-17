@@ -39,7 +39,7 @@ body{
     list-style-type: none;
     justify-content: space-between;
     background-color: hsl(225, 100%, 98%);
-    width: 80%;
+    width: 90%;
     align-items: center;
     margin: 1rem auto;
     /* margin-top: 1rem; */
@@ -50,7 +50,7 @@ body{
     margin: 0 ;
 } */
 .button1{
-    width: 80%;
+    width: 90%;
     font-size: .8rem;
     background-color: hsl(245, 75%, 52%);
     color: white;
